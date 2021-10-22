@@ -56,6 +56,7 @@ const useStyles = makeStyles((theme) => ({
       <CssBaseline />
       <div className={classes.root}>
         <Header 
+          // style={{paddingLeft: '16px', paddingRight: '16px',}}
           switchMode={switchMode} 
           darkMode={darkMode} 
           scrollToTop={scrollToTop}

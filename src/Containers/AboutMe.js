@@ -244,7 +244,7 @@ export default function AboutMe() {
 
     const classes = useStyles();
     return (
-      <Container className={classes.mainArea} disableGutters fixed>
+      <Container className={classes.mainArea} fixed>
         <Box  display='flex' flexDirection='row' justifyContent='center' paddingTop='2em' paddingBottom='2em'>
             <Typography variant="h2" align='center' style={{fontWeight: 600}}>Stephen Pritchard</Typography>
         </Box>
