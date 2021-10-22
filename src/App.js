@@ -44,9 +44,6 @@ const useStyles = makeStyles((theme) => ({
     })
   }
   function scrollToProjRef(target) {
-    // projRef.current[index].current.scrollIntoView({
-    //   behavior: "smooth",
-    // });
     elementScrollIntoView(document.querySelector(target), {behavior: 'smooth'})
   }
   return (
