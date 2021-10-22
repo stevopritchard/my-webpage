@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/my-webpage/static/css/main.bab4e885.chunk.css",
-    "main.js": "/my-webpage/static/js/main.e7a21a3a.chunk.js",
-    "main.js.map": "/my-webpage/static/js/main.e7a21a3a.chunk.js.map",
-    "runtime-main.js": "/my-webpage/static/js/runtime-main.ec023fa9.js",
-    "runtime-main.js.map": "/my-webpage/static/js/runtime-main.ec023fa9.js.map",
-    "static/js/2.eb872cc0.chunk.js": "/my-webpage/static/js/2.eb872cc0.chunk.js",
-    "static/js/2.eb872cc0.chunk.js.map": "/my-webpage/static/js/2.eb872cc0.chunk.js.map",
-    "static/js/3.66df3890.chunk.js": "/my-webpage/static/js/3.66df3890.chunk.js",
-    "static/js/3.66df3890.chunk.js.map": "/my-webpage/static/js/3.66df3890.chunk.js.map",
+    "main.js": "/my-webpage/static/js/main.e3a1ed2c.chunk.js",
+    "main.js.map": "/my-webpage/static/js/main.e3a1ed2c.chunk.js.map",
+    "runtime-main.js": "/my-webpage/static/js/runtime-main.8ce1df89.js",
+    "runtime-main.js.map": "/my-webpage/static/js/runtime-main.8ce1df89.js.map",
+    "static/js/2.2dff1cfa.chunk.js": "/my-webpage/static/js/2.2dff1cfa.chunk.js",
+    "static/js/2.2dff1cfa.chunk.js.map": "/my-webpage/static/js/2.2dff1cfa.chunk.js.map",
+    "static/js/3.58988b53.chunk.js": "/my-webpage/static/js/3.58988b53.chunk.js",
+    "static/js/3.58988b53.chunk.js.map": "/my-webpage/static/js/3.58988b53.chunk.js.map",
     "index.html": "/my-webpage/index.html",
     "static/css/main.bab4e885.chunk.css.map": "/my-webpage/static/css/main.bab4e885.chunk.css.map",
-    "static/js/2.eb872cc0.chunk.js.LICENSE.txt": "/my-webpage/static/js/2.eb872cc0.chunk.js.LICENSE.txt",
+    "static/js/2.2dff1cfa.chunk.js.LICENSE.txt": "/my-webpage/static/js/2.2dff1cfa.chunk.js.LICENSE.txt",
     "static/media/blockchain.6a4dcbe4.png": "/my-webpage/static/media/blockchain.6a4dcbe4.png",
     "static/media/conjugado.6822b547.png": "/my-webpage/static/media/conjugado.6822b547.png",
     "static/media/expressjs-icon.632d3c32.svg": "/my-webpage/static/media/expressjs-icon.632d3c32.svg",
@@ -23,9 +23,9 @@
     "static/media/woofers.a49805c3.png": "/my-webpage/static/media/woofers.a49805c3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ec023fa9.js",
-    "static/js/2.eb872cc0.chunk.js",
+    "static/js/runtime-main.8ce1df89.js",
+    "static/js/2.2dff1cfa.chunk.js",
     "static/css/main.bab4e885.chunk.css",
-    "static/js/main.e7a21a3a.chunk.js"
+    "static/js/main.e3a1ed2c.chunk.js"
   ]
 }
