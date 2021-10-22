@@ -67,6 +67,7 @@ export default function Header(props) {
                         <Button 
                             onClick={props.scrollToTop}
                             className={classes.button}
+                            // href="/"
                         >
                             About Me
                         </Button>
@@ -89,9 +90,9 @@ export default function Header(props) {
                                     color='inherit' 
                                     button 
                                     component={Link} 
-                                    href={text.id} 
+                                    // href={text.id} 
                                     key={index}
-                                    onClick={() => props.scrollToProjRef(index)}
+                                    onClick={() => props.scrollToProjRef(text.id)}
                                 >
                                     {text.name}
                                 </MenuItem>

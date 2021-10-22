@@ -5,6 +5,7 @@ import Projects from './Components/Projects'
 import { ThemeProvider, createTheme, makeStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { Container } from '@material-ui/core';
+import { elementScrollIntoView } from "seamless-scroll-polyfill";
 
 function App() {
 
@@ -42,10 +43,11 @@ const useStyles = makeStyles((theme) => ({
       behavior: 'smooth'
     })
   }
-  function scrollToProjRef(index) {
-    projRef.current[index].current.scrollIntoView({
-      behavior: "smooth",
-    });
+  function scrollToProjRef(target) {
+    // projRef.current[index].current.scrollIntoView({
+    //   behavior: "smooth",
+    // });
+    elementScrollIntoView(document.querySelector(target), {behavior: 'smooth'})
   }
   return (
     <ThemeProvider 
