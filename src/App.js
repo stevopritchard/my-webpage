@@ -5,7 +5,10 @@ import Projects from './Components/Projects'
 import { ThemeProvider, createTheme, makeStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { Container } from '@material-ui/core';
+import { polyfill } from "seamless-scroll-polyfill";
 import { elementScrollIntoView } from "seamless-scroll-polyfill";
+
+polyfill();
 
 function App() {
 
