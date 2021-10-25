@@ -66,14 +66,14 @@ function createBEData(school, nodejs, express, postgresql, mongodb) {
 }
 
 const frontEndCourses = [
-  createFEData('Complete Web Developer Course' ,'','',<CheckIcon style={{height:13, width: 13}}/>,<CheckIcon style={{height:13, width: 13}}/>),
-  createFEData('Complete Node Developer Course','','','',''),
+  createFEData('Complete Web Developer: Zero to Mastery (Udemy)' ,'',<CheckIcon style={{height:13, width: 13}}/>,<CheckIcon style={{height:13, width: 13}}/>,<CheckIcon style={{height:13, width: 13}}/>),
+  createFEData('Complete Node.js Developer Course (Udemy)','','','',''),
   createFEData('freecodecamp',<CheckIcon style={{height:13, width: 13}}/>,<CheckIcon style={{height:13, width: 13}}/>,'','')
 ]
 
 const backEndCourses = [
-  createBEData('Complete Web Developer Course' ,<CheckIcon style={{height:13, width: 13}}/>,<CheckIcon style={{height:13, width: 13}}/>,<CheckIcon style={{height:13, width: 13}}/>,''),
-  createBEData('Complete Node Developer Course',<CheckIcon style={{height:13, width: 13}}/>,<CheckIcon style={{height:13, width: 13}}/>,<CheckIcon style={{height:13, width: 13}}/>,<CheckIcon style={{height:13, width: 13}}/>),
+  createBEData('Complete Web Developer: Zero to Mastery (Udemy)' ,<CheckIcon style={{height:13, width: 13}}/>,<CheckIcon style={{height:13, width: 13}}/>,<CheckIcon style={{height:13, width: 13}}/>,''),
+  createBEData('Complete Node.js Developer Course (Udemy)',<CheckIcon style={{height:13, width: 13}}/>,<CheckIcon style={{height:13, width: 13}}/>,<CheckIcon style={{height:13, width: 13}}/>,<CheckIcon style={{height:13, width: 13}}/>),
   createBEData('freecodecamp','','','','')
 ]
 
@@ -148,13 +148,13 @@ const Popover1 = () => {
         </Box>
         <Box display='flex' flexDirection='row' style={{paddingTop: '9px'}}>
           <Box paddingLeft={2} paddingRight={1.3}>
-            <FontAwesomeIcon icon={faJs} size='3x' />
+            <FontAwesomeIcon icon={faJs} size='2x' />
           </Box>
           <Box paddingRight={1.3}>
-            <FontAwesomeIcon icon={faHtml5} size='3x' />
+            <FontAwesomeIcon icon={faHtml5} size='2x' />
           </Box>
           <Box paddingRight={2}>
-            <FontAwesomeIcon icon={faCss3} size='3x' />
+            <FontAwesomeIcon icon={faCss3} size='2x' />
           </Box>
         </Box>
       </Box>
@@ -165,17 +165,17 @@ const Popover1 = () => {
         </Box>
         <Box display='flex' flexDirection='row' alignItems='center'>
           <Box paddingLeft={2} paddingRight={0.6} marginTop={-0.2}>
-            <SvgIcon viewBox='0 10 70 40' style={{height:50, width: 50}}>
+            <SvgIcon viewBox='0 10 70 40' style={{height:35, width: 35}}>
               <Expressjs/>
             </SvgIcon>
           </Box>
           <Box  marginBottom={-0.9}>
-            <SvgIcon viewBox='5 0 50 40' style={{height:50, width: 50}}>
+            <SvgIcon viewBox='5 0 50 40' style={{height:35, width: 35}}>
               <Postgresql />
             </SvgIcon>
           </Box>
           <Box>
-            <SvgIcon viewBox='8 -2 35 45' style={{height:50, width: 36}}>
+            <SvgIcon viewBox='8 -2 35 45' style={{height:35, width: 36}}>
               <Mongodb />
             </SvgIcon>
           </Box>
