@@ -38,7 +38,7 @@ const projArray = [
       "An automated invoice submission app. Invoices are uploaded via drag 'n' drop to an AWS Textract endpoint which reads the document. The returned data is checked against the client's purchase orders on their BrightPearl CRM endpoint, and any matches are saved to a MongodDB collection.",
     github1: 'https://github.com/stevopritchard/Invoice-Parser-client',
     github2: 'https://github.com/stevopritchard/Invoice-Parser-server',
-    url: 'https://radiant-crag-07404.herokuapp.com/',
+    url: 'https://cotterill-invoicing-client.herokuapp.com/',
   },
   {
     name: 'Blockchain app',
