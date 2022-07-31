@@ -25,7 +25,7 @@ const projArray = [
     id: 'jsnote',
     image: jsnoteImage,
     description:
-      'A TypeScript-based JavaScript code editor and Markdown notebook.',
+      'A TypeScript-based JavaScript code editor and Markdown notebook. Packed with its own API for local data storage, and command line interface.',
     github1: 'https://github.com/stevopritchard/jsnote',
     github2: null,
     url: 'https://stevopritchard.github.io/jsnote-demo/',
@@ -45,7 +45,7 @@ const projArray = [
     id: 'blockchain',
     image: blockchainImage,
     description:
-      'I built this as a submission for a project challenge on the Complete Web Developer community. The only third party library used for this project was Material Kit for styling. I took advantage of ES6 class constructors, which I had previously only used in building class-based React components.',
+      'White label app that offers a fully functional blockchain. HTML and JavaScript, with MaterialKit for styling.',
     github1: 'https://github.com/stevopritchard/Challenge-1-Blockchain',
     github2: null,
     url: 'https://stevopritchard.github.io/Challenge-1-Blockchain/',
@@ -55,7 +55,7 @@ const projArray = [
     id: 'conjugado',
     image: conjugadoImage,
     description:
-      "This project was an opportunity to build something that would be useful to my Spanish studies. Verbs are found via the search bar, and each verb offers a full conjugation table and can be selected as a 'favourite' so that it appears onscreen when you next login. There is also an accompanying practise section that allows you to test your knowledge against a chosen combination of tenses.",
+      'A dedicated verb reference app and a conjugation quiz. React frontend with an Express backend & PostgreSQL databases for verb reference and user data.',
     github1: 'https://github.com/stevopritchard/conjugation_frontend',
     github2: 'https://github.com/stevopritchard/conjugation_backend',
     url: 'https://conjugado-frontend.herokuapp.com/',
@@ -75,7 +75,7 @@ const projArray = [
     id: 'woofers',
     image: woofersImage,
     description:
-      "My first project for a client. A single-page React app that uses React-Router-DOM and the react-carousel and react-image-lightbox packages and Google's Maps Embed API.",
+      "A single-page React app that uses React-Router-DOM and the react-carousel and react-image-lightbox packages and Google's Maps Embed API.",
     github1: 'https://github.com/stevopritchard/woofersv2',
     github2: null,
     url: 'https://www.woofersbristol.co.uk/',
