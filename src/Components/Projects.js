@@ -25,7 +25,7 @@ const projArray = [
     id: 'jsnote',
     image: jsnoteImage,
     description:
-      'A TypeScript-based JavaScript code editor and Markdown notebook. Packed with its own API for local data storage, and command line interface.',
+      'A TypeScript-based JavaScript code editor and Markdown notebook. Packaged with its own API for local data storage, and command line interface.',
     github1: 'https://github.com/stevopritchard/jsnote',
     github2: null,
     url: 'https://stevopritchard.github.io/jsnote-demo/',
