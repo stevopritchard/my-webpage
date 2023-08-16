@@ -208,6 +208,16 @@ function ProjectCard(props) {
             GitHub
           </Button>
         </Box>
+        <Box>
+          <Button
+            variant="outlined"
+            disableElevation
+            startIcon={<LaunchIcon />}
+            onClick={() => openInNewTab(project.url)}
+          >
+            Launch
+          </Button>
+        </Box>
         <Popover
           id={id}
           open={open}
