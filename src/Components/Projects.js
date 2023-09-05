@@ -80,16 +80,6 @@ const projArray = [
     github2: null,
     url: 'https://www.woofersbristol.co.uk/',
   },
-  {
-    name: 'Smart Brain',
-    id: 'smartBrain',
-    image: smartbrainImage,
-    description:
-      'The final project of the Complete Web Developer course brought together a lot of aspects that I had previously covered as separate concepts, including using third-party libraries with Node.js, REST operations and setting up an SQL database.',
-    github1: 'https://github.com/stevopritchard/facerecognitionbrain',
-    github2: 'https://github.com/stevopritchard/SmartBrain-API',
-    url: 'https://smart-brain--front-end.herokuapp.com/',
-  },
 ];
 
 const useStyles = makeStyles({
@@ -208,6 +198,20 @@ function ProjectCard(props) {
             GitHub
           </Button>
         </Box>
+        {project.name === 'Invoice Parser' ? (
+          ''
+        ) : (
+          <Box>
+            <Button
+              variant="outlined"
+              disableElevation
+              startIcon={<LaunchIcon />}
+              onClick={() => openInNewTab(project.url)}
+            >
+              Launch
+            </Button>
+          </Box>
+        )}
         <Popover
           id={id}
           open={open}

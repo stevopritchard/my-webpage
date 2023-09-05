@@ -26,7 +26,6 @@ const projListArray = [
   { name: '¡Conjugado!', id: '#conjugado' },
   { name: 'Weather app', id: '#weather' },
   { name: 'Woofers', id: '#woofers' },
-  { name: 'Smart Brain', id: '#smartBrain' },
 ];
 
 const useStyles = makeStyles((theme) => ({
